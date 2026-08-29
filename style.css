@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    width: 800px;
+    max-width: 95%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 2;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    flex: 1;
+    font-size: 1rem;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+.edit, .delete, .back {
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+
+.edit {
+    background: #ddd;
+    color: black;
+}
+
+.edit:hover {
+    opacity: 0.8;
+}
+
+.delete {
+    background: #333;
+    color: white;
+}
+
+.delete:hover {
+    opacity: 0.8;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 15px;
+    background: #ddd;
+    color: black;
+}
+
+.back:hover {
+    opacity: 0.8;
+}
